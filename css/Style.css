@@ -1,0 +1,166 @@
+*{
+   
+    margin: 0;
+}
+.page1 {
+  background-color: black;
+}
+/* Navigation Bar Styles */
+.nav {
+  display: flex;
+  margin-left: 180px;
+}
+.navbar ul {
+  list-style-type: none;
+  margin-top:24px;
+  
+  gap: 70px;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: gray;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 8px 16px;
+}
+.nav-icon{
+     height: 107.54px;
+    margin-top: 26px;
+    margin-left: 120px;
+    width: 107.54px;
+}
+
+
+/* Hero Section Styles */
+.hero{
+    display: flex;
+    margin-left: 180px;
+   
+    margin-top: 30px;
+}
+.button a{
+    color: white;
+    background-color: rgb(37, 161, 6);
+    text-align: center;
+    text-decoration: none;
+    padding: 25px 50px;
+    font-size: 20px;
+    margin-top: 40px;
+    font-style: italic;
+}
+.button a:hover{
+    background-color: rgb(62, 107, 51);
+}
+ h1{
+   width: 426px;
+   height: 72px;
+   color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    margin-top: 25px;
+}
+p{
+    width: 524px;
+    height: 96px;
+    color: gray;
+    font-size: 20px;
+    margin-top: 30px;
+}
+.hero2{
+    margin-left: 180px;
+    color: rgb(255, 255, 255);
+    margin-top: 200px;
+}
+.logo{
+    margin-top: 0px;
+    width: 920px;
+    margin-left: 180px;
+}
+
+
+
+/* Case Studies Section Styles */
+.page2{
+    background-color: white;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: 180px;
+    margin-top: 50px;
+    gap: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.details{
+    display: flex;
+    justify-content: center;
+     align-items: center;
+    margin-top: 20px;
+    gap: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.title1{
+    display: flex;
+    margin-left: 180px;
+}
+.btn1{
+    color: white;
+    background-color: #FFA217;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 40px;
+    font-style: italic;
+}
+.des1 h4{
+    margin-bottom: 20px;
+    color: #FFA217;
+}
+.img1{
+    float: right;
+}
+.title2{
+    display: flex;
+    margin-left: 180px;
+    margin-top: 50px;
+}
+.btn2{
+    color: white;
+    background-color: #000AFF;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 40px;
+    font-style: italic;
+}
+.des2 h4{
+    margin-bottom: 20px;
+    color: #000AFF;
+}
+
+
+.title3{
+    display: flex;
+    margin-left: 180px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.btn3{
+    color: white;
+    background-color:#2AB090;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 40px;
+    font-style: italic;
+}
+.des3 h4{
+    margin-bottom: 20px;
+    color:#2AB090;
+}
