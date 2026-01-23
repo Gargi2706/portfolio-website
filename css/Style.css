@@ -1,47 +1,31 @@
 *{
    margin: 0;
+   padding: 0;
 }
 .navbar {
   background-color: black;
   padding:  0 95px 45px 95px;
 }
-
 /* Navigation Bar Styles */
 .nav {
   display: flex;
   background-color: #1b1b1b;
-  padding: 24px 95px;
-  gap : 100px;
-  width: calc(100% - 200px);
 }
 .nav-items ul {
   list-style-type: none;
-  display: flex;
-  width: 100%;
-  gap:55px;
+  gap:50px;
 }
 .nav-items ul li a {
   text-decoration: none;
   color: #9C9C9C;
   font-size: 20px;
-  justify-content: space-between;
 }
 .nav-items ul li a:hover {
   color: white;
 }
-.nav-icon{
-   gap: 25px;
-}
-
-
 /* Hero Section Styles */
-.hero{
-    display: flex;
-    justify-content: space-evenly;
-    padding: 90px 0;
-}
 .button{
-    padding: 60px 0 ;
+    padding: 50px 0 ;
 }
 .button a{
     color: white;
@@ -58,7 +42,7 @@
  h1{
     color: white;
     font-size: 50px;
-    margin-top: 25px;
+    margin-top: 26px;
 }
 p{
     width: 524px;
@@ -68,19 +52,14 @@ p{
 }
 .hero-footer{
     display: flex;
-    padding: 24px 130px;
+    padding: 0px 90px;
     color: rgb(255, 255, 255);
     margin-top: 50px;
     flex-direction: column;
 }
-.logo{
-   display: flex;
-   justify-content: center;
-}
 .hero-footer p{
     color: #9c9c9c;
 }
-
 
 
 /* Case Studies Section Styles */
@@ -90,25 +69,15 @@ p{
 .title{
     display: flex;
     justify-content: center;
-    text-align: center;
     font-size: 26px;
-    gap: 50px;
 }
 .details{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    gap: 50px;
     color: #9C9C9C;
-    margin-bottom: 40px;
-    font: IBMPlexSans-Regular;
-    line-height: 28px;
 }
 
- /* for all text side area */
+/* for all text side area */
 .title-common{       
     display: flex;
-    justify-content: space-evenly;
     margin-top: 50px;
 }
 .title-common h4{
@@ -162,10 +131,11 @@ p{
     font-weight: 600;
 }
 .btn a:hover{
-    opacity: 0.6;
+    opacity: 0.8;
 }
 .img img{
     border-radius: 15px;
+    width:  530px;
 }
 
 
@@ -178,21 +148,15 @@ p{
 .testimonials-heading {
     display: flex;
     justify-content: center;
-    text-align: center;
     font-size: 26px;
-    gap: 50px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
-    
 }
 .testimonials-container{
     display: flex;
     justify-content: center;
     text-align: center;
-    gap: 50px;
     color: #9C9C9C;
-    margin-bottom: 40px;
-    line-height: 28px;
 }
 
 /* for card position */
@@ -286,7 +250,6 @@ p{
     width: 445px;
     height: 300px;
     border-radius: 15px; 
-
 }
 .workcard h3{
      margin-top: 40px;
@@ -308,7 +271,6 @@ p{
     text-decoration: none;
     padding: 15px 50px;
     font-size: 20px;
-    margin-top: 40px;
     font-style: italic;
     border-color: #62ba1b;
     border-radius: 10px;
@@ -322,7 +284,6 @@ p{
 .get-in-touch-section{
     background-color: black;
     padding: 50px;
-    
 }
  .form{
      align-items: center;
@@ -331,17 +292,13 @@ p{
 .heading{
     display: flex;
     justify-content: center;
-    text-align: center;
     font-size: 26px;
-    gap: 50px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
 }
 .info{
     display: flex;
     justify-content: center;
     text-align: center;
-    gap: 50px;
     color: #9C9C9C;
     margin-bottom: 40px;
     font: IBMPlexSans-Regular;
@@ -363,9 +320,7 @@ p{
     background-color: #62ba1b;
 }
 .email{
-    display: flex;
     flex-direction: column;
-    margin-bottom: 20px;
 }
 .email label{
     color: white;
@@ -380,9 +335,7 @@ p{
     font-size: 16px;
 }
 .number{
-    display: flex;
     flex-direction: column;
-    margin-bottom: 20px;
 }
 .number label{
     color: white;
@@ -397,9 +350,7 @@ p{
     font-size: 16px;        
 }
 .message{
-    display: flex;
-    flex-direction: column;                                 
-    margin-bottom: 20px;
+    flex-direction: column;                                
 }
 .message label{
     color: white;
@@ -426,5 +377,4 @@ p{
 }
 .footer p{
     color: #9c9c9c;
-    
 }
